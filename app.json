@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/AnonymousR1025/StringGenBot",
+  "repository": "https://github.com/mrvk1703/StringGenBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
