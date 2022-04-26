@@ -1,4 +1,4 @@
-Pyrogram==1.4.16
+Pyrogram==2.0.13
 Telethon==1.24.0
 TgCrypto==1.2.3
 SQLAlchemy==1.4.35
