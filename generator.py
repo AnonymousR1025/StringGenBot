@@ -28,9 +28,9 @@ if __name__ == "__main__":
     except (ApiIdInvalid, ApiIdPublishedFlood):
         raise Exception("Your API_ID/API_HASH IS INVALID.")
     except AccessTokenInvalid:
-        raise Exception("YOUR BOT_TOKEN IS WRONG, KYA FAAYDA TERE PADHNE LIKHNE KA BSDK.")
+        raise Exception("BOT_TOKENİNİZ SƏHVDİR!")
     uname = app.get_me().username
-    print(f"@{uname} Started Successfully for Generating Sessions !")
+    print(f"@{uname} Sessiyaların yaradılması üçün uğurla başladıldı !")
     idle()
     app.stop()
-    print("Bot Stopped, Bhakk Bsdk !")
+    print("Bot Dayandırıldı, !")
